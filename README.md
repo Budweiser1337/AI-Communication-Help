@@ -1,10 +1,9 @@
-# AI-Communication-Help
+# <p align="center"> AI-Communication-Help </p>
 
-Team Members:
+- # Team Members:
 Hugo KESTELOOT
 
 Jules DEPLACHON
-
 
 Yvan HU
 
@@ -14,13 +13,13 @@ Ryan LALEG
 
 Aurélie THEAY
 
-Functional Specifications
+- # Functional Specifications
 
-Introduction
+<p align="center"> Introduction </p>
 
 Development of a generative AI to assist individuals with Locked-In Syndrome (LIS) in communicating more intuitively. LIS is a neurological condition where the patient is awake and fully conscious but unable to move or speak due to complete paralysis, often resulting from a stroke.
 
-Product Details
+<p align="center"> Product Details </p>
 
 Current Communication Methods for LIS Individuals:
 
@@ -30,23 +29,23 @@ Blinking to select letters from an alphabet grid.
 
 Limited body movement communication using a scrolling keyboard.
 
-Challenges:
+<p align="center"> Challenges: </p>
 
 Existing methods are time-consuming and unintuitive.
 
 
-Objectives:
+<p align="center"> Objectives: </p>
 
 Develop advanced communication systems using technologies, including ChatGPT 3.5, to make communication more sophisticated and transparent.
 
 
-Solutions:
+<p align="center"> Solutions: </p>
 
 Utilize advanced technologies, including ChatGPT 3.5, for more sophisticated and transparent communication systems.
 
 Personalization: Recognize the interlocutor for personalized and customizable conversations.
 
-Project Status:
+<p align="center"> Project Status: </p>
 Previous attempts have been unsuccessful; aiming for success with ChatGPT 3.5 for response generation. A Proof of Concept (POC) is desired.
 
 Product Details
@@ -55,7 +54,7 @@ Chatbot LIS Conversation:
 Virtual assistant for LIS individuals to facilitate communication.
 Utilizes speech recognition and artificial intelligence.
 
-Key Features:
+<p align="center"> Key Features: </p>
 
 
 Speech recognition records and understands conversation.
@@ -70,7 +69,7 @@ Continuous conversations record discussion for timely intervention.
 
 Continuous learning through machine learning for improved understanding and responses.
 
-Benefits:
+<p align="center"> Benefits: </p>
 
 
 
