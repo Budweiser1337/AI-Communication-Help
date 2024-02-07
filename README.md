@@ -71,6 +71,12 @@ Continuous learning through machine learning for improved understanding and resp
 
 <p align="center"> Benefits: </p>
 
+Give a voice to LIS individuals for better social inclusion.
+
+Make conversations more natural and spontaneous.
+
+Adapt to the unique abilities of each individual.
+
 ### Installing
 
 1. Cloning the Repository
