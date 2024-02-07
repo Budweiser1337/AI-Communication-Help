@@ -1,17 +1,7 @@
 # <p align="center"> AI-Communication-Help </p>
 
 - # Team Members:
-Hugo KESTELOOT
-
-Jules DEPLACHON
-
-Yvan HU
-
-Mathys BRONNEC
-
-Ryan LALEG
-
-Aurélie THEAY
+Yvan HU - Jules DEPLACHON - Mathys BRONNEC - Ryan LALEG - Aurélie THEAY - Hugo KESTELOOT 
 
 - # Functional Specifications
 
