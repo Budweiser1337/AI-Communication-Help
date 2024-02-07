@@ -9,25 +9,37 @@ function App() {
   const [loading, setLoading] = useState(false);
   const [listening, setListening] = useState(false);
   const [speakResponse, setSpeakResponse] = useState(true);
+  const [originalReponses, setOriginalReponses] = useState([]);
+  const [answerSelected, setAnswerSelected] = useState(false);
 
   const APIBody = {
     "model": "gpt-3.5-turbo",
     "messages": [
       {"role": "system", "content": "Tu dois donner 5 catégories de réponse concises différentes et possible à la phrase donnée du plus au moins d'accord sur une échelle de 1 à 5. Si ce n'est pas adapté, fais des propositions. N'indique pas le numéro de réponse ni la catégorie."},
-      {"role": "user", "content": question}
+      {"role": "user", "content": question},
+      {"role": "assistant", "content": "Speak in first person and don't indicate the number nor the category."}
     ]
   };
 
   const handleButtonClick = (selectedResponse) => {
+    setOriginalReponses([...reponse]);
     setReponse([selectedResponse]);
     if (speakResponse) {
       speak(selectedResponse);
     }
+    setAnswerSelected(true);
+  };
+
+  const handleBackButton = () => {
+    setReponse([...originalReponses]);
+    setAnswerSelected(false);
   };
 
   const speak = (text) => {
     const utterance = new SpeechSynthesisUtterance(text);
     utterance.volume = 0.8;
+    utterance.lang = 'fr-FR'
+    utterance.voice = window.speechSynthesis.getVoices()[5];
     window.speechSynthesis.speak(utterance);
   };
 
@@ -133,6 +145,11 @@ function App() {
                   {suggestion}
                   </button>
               ))}
+              {answerSelected && (
+                <button onClick={handleBackButton}>
+                  <i className="fas fa-arrow-left"></i> Retour
+                </button>
+              )}
             </div>
           ) : null
         }
