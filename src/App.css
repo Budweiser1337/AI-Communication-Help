@@ -1,3 +1,4 @@
+@import "@fortawesome/fontawesome-free/css/all.css";
 #root {
   max-width: 1280px;
   margin: 0 auto;
@@ -62,6 +63,16 @@ textarea {
   align-items: center;
 }
 
+.speech-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.speech-buttons button {
+  margin: 100px;
+}
+
 button {
   margin: 10px 0;
   padding: 10px 20px;
@@ -81,6 +92,15 @@ button:hover {
 h3 {
   margin-top: 20px;
   color: #007bff;
+}
+
+.loading-indicator {
+  text-align: center;
+  padding: 10px;
+  background-color: #000000;
+  border: 1px solid #ad0606;
+  border-radius: 4px;
+  margin-top: 10px;
 }
 
 /* Add additional styles as needed */
