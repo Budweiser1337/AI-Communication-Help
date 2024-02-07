@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import './App.css';
 
-const API_KEY = "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";
+const API_KEY = "YOUR_API_KEY";
 
 function App() {
   const [question, setQuestion] = useState("");
