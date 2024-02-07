@@ -100,11 +100,3 @@ Adapt to the unique abilities of each individual.
    ```
 
    You should now be able to open the application in your web browser.
-
-
-
-Give a voice to LIS individuals for better social inclusion.
-
-Make conversations more natural and spontaneous.
-
-Adapt to the unique abilities of each individual.
