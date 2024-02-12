@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import './App.css';
 
-const API_KEY = "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"; // Changer la clé (sécurité)
+const API_KEY = ""; // Changer la clé (sécurité)
 
 function App() {
   const [question, setQuestion] = useState("");
