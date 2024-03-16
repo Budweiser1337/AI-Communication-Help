@@ -100,3 +100,13 @@ Adapt to the unique abilities of each individual.
    ```
 
    You should now be able to open the application in your web browser.
+
+5. Build and Deploy
+
+   If you want to deploy the application you can run the following command to build the project:
+
+   ```
+   npm run build
+   ```
+
+   To deploy the project you should use the /dist folder.
